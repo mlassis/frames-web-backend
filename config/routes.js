@@ -9,5 +9,4 @@ module.exports = function (server) {
     //Rotas da API
     const billingCycleService = require('../api/billingCycle/billingCycleService');
     billingCycleService.register(router, '/billingCycles')
-
 }
